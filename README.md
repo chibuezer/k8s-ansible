@@ -53,6 +53,7 @@ $ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
  pip3 install ansible --user
  pip3 install boto3 --user
 ```
+
 ###### <span style="color:orange"> Update Your Key Name in variables.tf file before executing terraform script </span>
 ## Infrastructure As A Code
 #### Create Infrastructure(VPC,Subnets,Route Tables,EC2 Instnaces ..etc) As A Code Using Terraform Scripts
