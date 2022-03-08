@@ -1,13 +1,7 @@
-
-#  **<span style="color:green">Landmark Technology.</span>**
-### **<span style="color:green">Contacts: +1437215 24 83   +1 437 215 2483 <br> WebSite : <http://mylandmarktech.com/></span>**
-### **Email: mylandmarktech@gmail.com         mylandmarktech@gmail.com**
-
-
-## **Agenda: Infrastructure Automation Using Terraform and Ansible With Dynamic Inventory to configure a Kubernetes Cluster**
+## **Agenda: Infrastructure Automation Using Terraform and Ansible With Dynamic Inventory to configure a**
 ## Terraform, Ansible Installation And Setup In AWS EC2 Redhat Instnace.
 ##### Prerequisite
-+ AWS Acccount.
++ AWS Acccount
 + Create Redhat EC2 Instnace.
 + Create IAM Role With Required Polocies.
    + VPCFullAccess
@@ -58,12 +52,6 @@ $ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
  sudo yum -y install python3-pip -y
  pip3 install ansible --user
  pip3 install boto3 --user
-```
-
-#### Clone terraform and ansible scripts
-``` sh
- git clone https://github.com/LandmakTechnology/k8s-ansible.git
- cd Kuberentes_Cluster_Terraform_Ansible
 ```
 ###### <span style="color:orange"> Update Your Key Name in variables.tf file before executing terraform script </span>
 ## Infrastructure As A Code
