@@ -58,6 +58,9 @@ $ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
  sudo yum -y install python3-pip -y
  pip3 install ansible --user
  pip3 install boto3 --user
+ 
+ wget https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg
+ wget https://raw.githubusercontent.com/ansible/ansible/devel/examples/hosts
 ```
 
 #### Clone terraform and ansible scripts
